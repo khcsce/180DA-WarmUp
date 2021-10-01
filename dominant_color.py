@@ -34,7 +34,7 @@ def plot_colors2(hist, centroids):
     # return the bar chart
     return bar
 
-img = cv2.imread("pic/img7.jpeg")
+img = cv2.imread("image.jpeg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 img = img.reshape((img.shape[0] * img.shape[1],3)) #represent as row*column,channel number
